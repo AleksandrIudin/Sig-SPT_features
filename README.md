@@ -1,17 +1,9 @@
 # Sig-SPT
 
-These codes have been used in the article [Signature Methods in Stochastic Portfolio Theory](https://arxiv.org/abs/2310.02322) by 
-Christa Cuchiero and Janka Möller.
+These codes have been used in the article "Signature Methods and Path Feature Selection for Portfolio Optimization by Aleksandr Iudin 
 
-For citations:
+Supervisor: Univ.-Prof. Dr. Christa Cuchiero
 
-Cuchiero, C.; Möller, J. Signature Methods in Stochastic Portfolio Theory.
-
-    @article{CM:23,
-        title={{Signature Methods in Stochastic Portfolio Theory}}, 
-        author={Cuchiero, C. and Möller, J.},
-        journal={Preprint arXiv:2310.02322},
-        year={2023}}
 
 # Randomize_signatures.py
 Code to compute the 
