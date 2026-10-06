@@ -5,19 +5,20 @@ These codes have been used in the article "Signature Methods and Path Feature Se
 Supervisor: Univ.-Prof. Dr. Christa Cuchiero
 
 
-# Randomize_signatures.py
-Code to compute the 
-  - JL-signatuture using the memory efficient algorithm proposed in our article
-  - Randomized Signature
+This repository is a fork of https://github.com/janka-moeller/Sig-SPT
+(Cuchiero & Möller, "Signature Methods in Stochastic Portfolio Theory",
+arXiv:2310.02322). It contains the code used for the Master's thesis
+"Signature Methods and Path Feature Selection for Portfolio Optimization" by Aleksandr Iudin 
 
-# Signature_portfolios_classes.py
-A collection of classes used for market-simulation an the computation of the (theoretical) growth-optimal portfolio. 
+Supervisor: Univ.-Prof. Dr. Christa Cuchiero
 
-# Signature_portfolios_functions.py
-A collection of basic functions. 
+Added files:
+- Signature_portfolios_functions_PCA.py: PCA projection of signature features
+- Signature_portfolios_optimize_realdata_PCA.py: optimization with PCA
+- Signature_portfolios_functions_LASSO.py: LASSO selection of signature features
+- Signature_portfolios_optimize_realdata_LASSO.py: optimization with LASSO
+- Prepare_ATX_ranked.py
+- run_ATX.py: experiment on the ATX data
 
-# Signature_portfolios_optimize_realdata.py
-Functions used to optimize signature portfolios using real market data. 
-
-# Signature_portfolios_optimize_simulated_markets.py
-Functions used to traine the signature portfolios in the simulated markets and comparing their performance to the the theoretical growth-optimal portfolio. 
+All other files are unchanged from the original repository.
+Market data (Datastream/LSEG) is not included for licensing reasons.
